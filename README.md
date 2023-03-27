@@ -6,7 +6,7 @@ This project classifies 50 different classes of environmental audio sounds using
 Data was prepared as detailed in the [code](https://github.com/kelvinsima2/Environmental_Audio_Classification/blob/main/Environmental_Sound_Classification.ipynb). The audio files were converted into mel-spectograms and stored in google drive as images. These images were then trained for classification.
 
 # Model
-The deep learning framework used in this project is Tensorflow. The model is summarized as follows (the base model is the [InceptionV3(https://keras.io/api/applications/inceptionv3/)):
+The deep learning framework used in this project is Tensorflow. The model is summarized as follows (the base model is the [InceptionV3](https://keras.io/api/applications/inceptionv3/)):
 
 * inputs = tf.keras.Input(shape=IMG_SHAPE)
 * x = preprocess_input(inputs)
