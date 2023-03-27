@@ -18,7 +18,7 @@ The deep learning framework used in this project is Tensorflow. The model is sum
 * model = tf.keras.Model(inputs, outputs)
 
 # Results
-Overall, the testing accuracy for the model was 59.38%. Most likely, the noise in some of the audio data may have caused the low accuracies. More pre-processing methodologies will be explored to increase the validation and testing accuracies. The training and validation accuracy and loss graphs are shown below: <br />
+Overall, the testing accuracy for the model was 59.38%. Most likely, the noise in some of the audio data may have caused the low accuracies. More pre-processing methodologies will be explored to increase the validation and testing accuracies. More ways of reducing overfitting will also be explored. The training and validation accuracy and loss graphs are shown below: <br />
 ![Accuracy and Loss Graphs](/images/accuracy_audio.png)
 
 
